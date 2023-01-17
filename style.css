@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+width: 100%;
+height: 44vmax;
+background-color: rgba(0, 0, 0, 0.5);
+position: relative;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+align-items: center;
+}
+
+header img{
+width: 100%;
+height: 44vmax;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+.first{
+    padding: 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+}
+
+.second{
+    font-size: 5vmax;
+    font-weight: 900;
+    letter-spacing: 1vmax;
+    /* word-spacing: 1.2vmax; */
+}
+
+.third{
+    font-size: 0.9vmax;
+word-spacing: 2vmax;
+padding: 1vmax;
+}
+
+.fourth{
+    font-size: 1vmax;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2vmax 1vmax 1vmax 1vmax;
+word-spacing: 2vmax;
+}
+
+
+.fifth{
+    font-size: 1vmax;
+padding: 1vmax;
+font-weight: 700;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    font-size: 1.1vmax;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 1vmax 1.5vmax;
+    color: grey;
+    cursor: pointer;
+    transition: 0.25s0;
+}
+nav ul li:hover{
+    color: black;
+}
+
+nav span{
+    border: 2px solid black;
+    
+}
+
+.page2{
+padding: 9vmax 27vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page2 h1{
+    font-weight: 100;
+
+}
+.page2 p{
+    padding: 3vmax;
+}
+
+.icn img{
+padding-left: 16vmax;
+padding-bottom: 4vmax;
+/* padding-top: 3vmax; */
+cursor: pointer;
+transition: 0.25s;
+}
+.icn img:hover{
+    transform: translateY(-23px);
+}
+#a{
+    position: absolute;
+    top: 190%;
+    left: 16.4%;
+}
+
+#b{
+    position: absolute;
+    top: 190%;
+    left: 36.4%;
+}
+
+#c{
+    position: absolute;
+    top: 190%;
+    left: 55%;
+}
+
+#d{
+    position: absolute;
+    top: 190%;
+    left: 77%;
+}
+
+.page3{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.type{
+    width: 30%;
+    height: 100%;
+    padding: 5vmax;
+}
+
+.type h1{
+    color: white;
+}
+.type p{
+    color: white;
+}
+button{
+    padding: 1vmax 2vmax;
+    border-radius: 2vmax;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+.logo{
+    width: 70%;
+    height: 100%;
+    padding-left: 10vmax;
+}
+
+.logo img{
+    width: 18vmax;
+    padding: 2vmax;
+}
+
+.last-p{
+    width: 100%;
+    height: 10%s;
+    text-align: center;
+    padding: 5vmax;
+}
